@@ -1,0 +1,239 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "FabricTest-1.21.1",
+      "name": "FabricTest (Minecraft 1.21.1)",
+      "description": "FabricTest Running Minecraft 1.21.1 (Fabric v0.18.4)",
+      "icon": "https://art.pixilart.com/sr20860242765aws3.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://haimoo123.github.io/syuang/repo/lib/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.18.4",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "6b05b0839601d30b5b2a154c2d141ebd",
+                "url": "https://haimoo123.github.io/syuang/repo/versions/1.21.1-fabric-0.18.4/1.21.1-fabric-0.18.4.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://haimoo123.github.io/syuang/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://haimoo123.github.io/syuang/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://haimoo123.github.io/syuang/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://haimoo123.github.io/syuang/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://haimoo123.github.io/syuang/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://haimoo123.github.io/syuang/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://haimoo123.github.io/syuang/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.9+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2425600,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/fabricmods/required/fabric-api-0.116.9+1.21.1.jar",
+            "MD5": "b7ce8a460c6c9d4538536730864dd818"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/fabricmods/required/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "MD5": "aa37ba0048a1af6b554b137088cad484"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "54358945c6fa06df763ad5fa0c276985",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "iris-excluded.json",
+          "name": "iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/files/config/iris-excluded.json",
+            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+            "path": "config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 315,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/files/config/iris.properties",
+            "MD5": "8335e528bd3d87813d2c4770dc5dd9f2",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/files/config/sodium-fingerprint.json",
+            "MD5": "552ef276fba80e5a9313571311bcd337",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 258,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/files/config/sodium-mixins.properties",
+            "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 685,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/files/config/sodium-options.json",
+            "MD5": "aa01ef19d7217fbb88ed03f737384c66",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.7.1.zip",
+          "name": "ComplementaryReimagined_r5.7.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 522970,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/files/shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+            "MD5": "bc5f557bb6844d27e7b7891170544ea9",
+            "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.7.1.zip.txt",
+          "name": "ComplementaryReimagined_r5.7.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 76,
+            "url": "https://haimoo123.github.io/syuang/servers/FabricTest-1.21.1/files/shaderpacks/ComplementaryReimagined_r5.7.1.zip.txt",
+            "MD5": "5565fdf5b1eb3a9234675253cdc868ae",
+            "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}

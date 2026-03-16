@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/TestRoot2/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "FabricTest (Minecraft 1.21.1)",
+    "description": "FabricTest Running Minecraft 1.21.1 (Fabric v0.18.4)",
+    "icon": "https://art.pixilart.com/sr20860242765aws3.png",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.18.4"
+  },
+  "untrackedFiles": []
+}
